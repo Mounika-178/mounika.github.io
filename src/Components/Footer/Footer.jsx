@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
-import logo from 'C:/Users/hp/Desktop/portfolio/portfolio-react/src/assets/log.jpg'
-import user_icon from 'C:/Users/hp/Desktop/portfolio/portfolio-react/src/assets/user_icon.jpg'
+import logo from '../../assets/log.jpg'
+import user_icon from '../assets/user_icon.jpg'
 const Footer = () => {
   return (
     <div className='footer'>

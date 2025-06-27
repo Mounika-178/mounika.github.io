@@ -1,9 +1,9 @@
 import React from 'react'
 import './Contact.css'
-import theme_pattern from 'C:/Users/hp/Desktop/portfolio/portfolio-react/src/assets/theme_pattern.jpg'
-import mail_icon from 'C:/Users/hp/Desktop/portfolio/portfolio-react/src/assets/mail_icon.jpg'
-import location_icon from 'C:/Users/hp/Desktop/portfolio/portfolio-react/src/assets/location_icon.jpg'
-import call_icon from 'C:/Users/hp/Desktop/portfolio/portfolio-react/src/assets/call_icon.jpg'
+import themePattern from "../assets/theme_pattern.jpg"
+import mail_icon from '../assets/mail_icon.jpg'
+import location_icon from '../assets/location_icon.jpg'
+import call_icon from '../assets/call_icon.jpg'
 
 
 const Contact = () => {
@@ -34,7 +34,7 @@ const Contact = () => {
     <div id="contact" className='contact'>
         <div className="contact-title">
             <h1>Get in Touch</h1>
-            <img src={theme_pattern} alt=""  />
+            <img src={themePattern} alt=""  />
         </div>
         <div className="contact-section">
             <div className="contact-left">

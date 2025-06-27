@@ -1,15 +1,15 @@
 import React from 'react'
 import './Services.css'
-import theme_pattern from 'C:/Users/hp/Desktop/portfolio/portfolio-react/src/assets/theme_pattern.jpg'
-import Services_Data from  'C:/Users/hp/Desktop/portfolio/portfolio-react/src/assets/services_data.js'
-import arrow_icon from 'C:/Users/hp/Desktop/portfolio/portfolio-react/src/assets/arrow_icon.jpg'
+import themePattern from '../assets/theme_pattern.jpg'
+import Services_Data from '../assets/services_data.js'
+import arrow_icon from '../assets/arrow_icon.jpg'
 
 const Services = () => {
   return (
     <div id="services" className='services'>
         <div className="services-title">
             <h1>My Services</h1>
-            <img src={theme_pattern} alt=""/>
+            <img src={themePattern} alt=""/>
         </div>
         <div className="services-container">
             {Services_Data.map((service, index)=>{

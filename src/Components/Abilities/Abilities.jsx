@@ -1,7 +1,7 @@
 // Abilities.jsx
 import React from 'react';
 import './Abilities.css';
-import theme_pattern from 'C:/Users/hp/Desktop/portfolio/portfolio-react/src/assets/theme_pattern.jpg';
+import themePattern from "../assets/theme_pattern.jpg"
 import { FaSortAmountUp, FaComments, FaClock, FaUsers, FaSyncAlt, FaLaptopCode } from 'react-icons/fa';
 
 const Abilities = () => {
@@ -42,7 +42,7 @@ const Abilities = () => {
     <div id="abilities" className='abilities'>
       <div className="abilities-title">
         <h1>My Abilities</h1>
-        <img src={theme_pattern} alt="" />
+        <img src={themePattern} alt="" />
       </div>
       <div className="abilities-container">
         {abilities.map((ability, index) => (
