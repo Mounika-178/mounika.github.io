@@ -1,0 +1,125 @@
+.abilities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 170px;
+}
+
+.abilities-title {
+  position: relative;
+}
+
+.abilities-title h1 {
+  padding: 0px 30px;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.abilities-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.abilities-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.abilities-format {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 60px;
+  border-radius: 10px;
+  border: 2px solid white;
+  transition: 0.4s;
+  cursor: pointer;
+  align-items: center;
+}
+
+.abilities-format h2 {
+  font-size: 32px;
+  font-weight: 800;
+  background: linear-gradient(270deg, #DF8908 50.41%, #b415FF 90.25%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.abilities-format p {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.abilities-format:hover {
+  border: 2px solid #b415FF;
+  background-image: linear-gradient(45deg, #3f0028, #582300);
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.icon {
+  font-size: 40px;
+}
+.icon.yellow {
+  color: #facc15;
+}
+
+.icon.green {
+  color: #22c55e;
+}
+
+.icon.pink {
+  color: #ec4899;
+}
+.icon.blue {
+  color: #3b82f6;
+}
+
+.icon.teal {
+  color: #14b8a6;
+}
+
+.icon.orange {
+  color: #f97316;
+}
+@media(max-width:768px){
+    .abilities{
+        align-items: start;
+        gap: 70px;
+        margin: 20px 70px;
+    }
+    .abilities-title h1{
+        padding: 0;
+        font-size: 50px;
+    }
+    .abilities-title img{
+        width: 130px;
+        margin-right: -20px;
+    }
+    .abilities-format{
+        gap: 20px;
+        padding: 32px;
+    }
+    .abilities-format h2{
+        font-size: 28px;
+    }
+    .abilities-format p{
+        font-size: 18px;
+        line-height: 32px;
+        max-width: 300px;
+    }
+    .abilities-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
